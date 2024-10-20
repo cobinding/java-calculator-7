@@ -15,6 +15,7 @@
 ## 구현할 기능 목록
 
 1. `camp.nextstep.edu.missionutils`에서 제공하는 `Console` API를 통한 입력받기
-2. 잘못된 값을 입력할 경우 `Exception` 처리
-3. 입력받은 값에서 숫자와 문자를 구별하는 `extractNumbers` 메소드 구현
-4. 배열의 숫자를 모두 합하는 `sumNumbers` 메소드 구현
+2. "" 빈문자열과 null을 체크하는 `checkInput` 메소드 구현
+3. 구분자를 추출하는 `getDelimiter` 메소드 구현
+4. 추출된 구분자를 기준으로 입력값에서 숫자를 구별하는 `extractNumbers`메소드 구현
+6. 추출된 숫자를 모두 합하는 `sumNumbers` 메소드 구현
